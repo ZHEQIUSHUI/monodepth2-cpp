@@ -1,6 +1,9 @@
 # monodepth2-cpp
 deploy cpp with [monodepth](https://github.com/nianticlabs/monodepth2),
 
+# 注意事项
+模型确实是[monodepth](https://github.com/nianticlabs/monodepth2) trace出来的，但是因为数据结构不允许(他们用的是list，trace不支持list,但是支持tuple），所以我稍微改了一下，终于导出来了。所以还是有1丢丢不一样的，如果出现其他不可预料的问题，可以注意一下，反正我还没遇到问题。
+
 ## depend
 opencv
 libtorch(test in 1.3.0,you can try other version)
@@ -29,3 +32,4 @@ there is a [other libtorch project](https://github.com/ZHEQIUSHUI/RFBnet-cpp-lib
 
 # demo
 ![](https://github.com/nianticlabs/monodepth2/raw/master/assets/teaser.gif)
+
